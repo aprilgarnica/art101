@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Pong
+// An implementation of the game
+// Author: April Garnica and Liam L
+// Date: October 2024
 
 // Constants
 
@@ -17,5 +18,13 @@ function main() {
   // the code that makes everything happen
 }
 
-// let's get this party started
+//Print the playable area of the game
+  //Create a paddle on the left and right
+    //Accept player input for up and down
+  //Block player movement within range
+    //Create a ball going left or right
+      //Detect if the ball hits the paddle bounce
+      //If the ball hits the top or bottom bounce
+      //If the ball hits the wall behind the paddle win or lose
 main();
+
