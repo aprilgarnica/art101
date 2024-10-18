@@ -6,33 +6,35 @@
 body {
   background-color: #d28ee1;
   font-family: Verdana;
+  margin: 12px;
+  padding: 12px;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family: Montserrat;
-  color: rgb(37, 18, 37);
+  color: rgb(93, 10, 141);
 }
 
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
-  letter-spacing: 2px;
-  word-spacing: 4px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
   font-size: 200%;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
-  padding: 10px;
+  margin: 12px;
+  padding: 12px;
   border: dashed 2px #ff28ac;
   background-color: #efa4d2;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: dashed 1px #ff28ac;
+  padding: 15px;
+  margin-bottom: 12px;
+  border: none 1px #ff28ac;
   background-color: #ffbde6;
 }
