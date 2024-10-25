@@ -7,3 +7,10 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  #car {
+    max-width: 260px;
+    float: right;
+    padding-right: 700px;
+    margin: 30px;
+  }
