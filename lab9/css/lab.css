@@ -1,0 +1,14 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  .special {
+    background: linear-gradient(140deg, #59b4df 0%, #8402bb 100%);
+    border: groove 15px rgb(201, 235, 6);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+}
