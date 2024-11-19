@@ -1,0 +1,21 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  div#output {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+  #output {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.cols {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+}
