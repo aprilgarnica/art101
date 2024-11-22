@@ -1,9 +1,33 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
   }
+  .namebadge {
+    float: right;
+    width: 400px;
+}
+.namebadge img {
+  position: absolute;
+    width: 615px;
+    top: 110px;         
+    right: 45px;
+}
+  .name {
+    position: absolute;
+    top: 150px;
+    right: 95px;
+    width: 400px;
+    /*border: solid 1px black;*/
+    font-size: 240%;
+    line-height: 90%;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    margin: 20px;
+}
+
+
+
 
 
   
